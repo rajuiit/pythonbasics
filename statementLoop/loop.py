@@ -22,3 +22,14 @@ for outer_index, outer_list in enumerate(lists):
     print("Outer list index:", outer_index)
     for inner_element in outer_list:
         print(inner_element)
+
+
+#While loop
+        
+x = 5
+while x < 10:
+    print(f"The while loop value:", x)
+    x = x+1
+
+while True:
+    print("Forever")
