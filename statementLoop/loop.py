@@ -4,8 +4,8 @@ for i in city:
     print(f"city: {i} \n")
 
 numbers = [1,2,4,5,6,7,8,9]
-for i in numbers:
-    print(f"Numbers: {i} \n")
+for i, num in enumerate(numbers):
+    print(f"Numbers {i}:  {num}\n")
 
 #Nested for loop
 
