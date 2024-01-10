@@ -67,3 +67,8 @@ for i in range(number):
 numberslist = [1,2,3,5,6,7,8,9]
 for i in range(len(numberslist)):
     print(f"Index {i}: {numberslist[i]}")
+
+#range(start, stop, step)
+    
+for index in range(0, 11, 2):
+    print(index)
